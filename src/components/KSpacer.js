@@ -1,9 +1,10 @@
 import React from 'react';
 import {View, Text} from "react-native";
 
-function KSpacer() {
+
+function KSpacer({h=10}) {
     return (
-        <View style={{height:10}}>
+        <View style={{height:h}}>
             <Text></Text>
         </View>
     );

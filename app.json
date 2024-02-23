@@ -1,5 +1,6 @@
 {
   "expo": {
+
     "name": "petFind",
     "slug": "petFind",
     "version": "1.0.0",
@@ -11,6 +12,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+      "plugins": [
+        [
+          "expo-font",
+          {
+            "fonts": ["./assets/fonts/secrcode.ttf"]
+          }
+        ]
+      ],
     "assetBundlePatterns": [
       "**/*"
     ],
