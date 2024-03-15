@@ -1,12 +1,12 @@
-import {Typography } from 'react-native-ui-lib';
+/* import {Typography } from 'react-native-ui-lib';
 
 Typography.loadTypographies({
     text: {
         fontSize: 24,
-        fontFamily: 'SecretCode'
+        fontFamily: 'Serific'
     },
     title: {
         fontSize: 40,
         fontFamily: 'SecretCode'
     }
-})
+}) */

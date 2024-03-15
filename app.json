@@ -1,37 +1,48 @@
 {
   "expo": {
-
-    "name": "petFind",
-    "slug": "petFind",
-    "version": "1.0.0",
-    "orientation": "portrait",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "name": "petFind",
+    "orientation": "portrait",
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/secrcode.ttf"
+          ]
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "slug": "petFind",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-      "plugins": [
-        [
-          "expo-font",
-          {
-            "fonts": ["./assets/fonts/secrcode.ttf"]
-          }
-        ]
-      ],
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
+    "userInterfaceStyle": "light",
+    "version": "1.0.0",
     "web": {
       "favicon": "./assets/favicon.png"
     }
