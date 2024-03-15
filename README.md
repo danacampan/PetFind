@@ -19,9 +19,11 @@ After that, the post will appear on the homescreen:
 ![WhatsApp Image 2024-03-15 at 20 54 10](https://github.com/danacampan/PetFind/assets/118621995/5d1d65ec-addd-40f0-80b7-f44f1aec5358)
 
 By clicking the "FOUND IT!" button, we wil be redirected to the Map Screen, where we can search for the location of the pet:
+## Map Screen: 
 ![WhatsApp Image 2024-03-15 at 20 54 10 (1)](https://github.com/danacampan/PetFind/assets/118621995/a8448568-ada5-4a6d-a8c7-38a6e5fcf352)
 
 After choosing the location, the user will have to take a photo of the pet for confirmation, and then the location data and the photo will be send to the pet owner's email.
+## Picture Screen:
 ![WhatsApp Image 2024-03-15 at 20 54 10 (2)](https://github.com/danacampan/PetFind/assets/118621995/feb737f4-950f-4f79-843e-fae49a9ee3eb)
 
 
