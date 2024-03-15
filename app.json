@@ -16,6 +16,9 @@
     "ios": {
       "supportsTablet": true
     },
+    "extra": {
+      "APY_KEY": "pk.eyJ1IjoiZGFuYWNhbXBhbiIsImEiOiJjbHRzdWpubmYwM3AzMnFvdW11dmYzNjlqIn0.6P031pXSg8BEJoh-TkdH1Q"
+    },
     "name": "petFind",
     "orientation": "portrait",
     "plugins": [

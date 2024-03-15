@@ -9,12 +9,13 @@ import KSpacer from "./src/components/KSpacer";
 import StartScreen from "./src/screens/StartScreen";
 import RegisterScreen from "./src/screens/RegisterScreen";
 import HomeScreen from "./src/screens/HomeScreen";
-import AnnounceScreen from "./src/screens/AnnounceScreen";
-import ProfileScreen from "./src/screens/ProfileScreen";
 import * as ImagePicker from 'expo-image-picker';
 import AddAnnounce from "./src/screens/AddAnnounce";
 import {MyContext} from "./src/contexts/myContext";
 import * as SecureStore from 'expo-secure-store';
+import FoundScreen from "./src/screens/FoundScreen.js";
+import PictureScreen from "./src/screens/PictureScreen.js";
+import PreviewScreen from "./src/screens/PreviewScreen.js";
 
 
 SplashScreen.preventAutoHideAsync();
@@ -42,8 +43,9 @@ export default function App() {
              {isLoggedIn ?  <Stack.Navigator>
                      <Stack.Screen name="Home" component={HomeScreen}></Stack.Screen>
                      <Stack.Screen name="Add" component={AddAnnounce} options={{presentation: 'modal'}}></Stack.Screen>
-                     <Stack.Screen name="Announce" component={AnnounceScreen}></Stack.Screen>
-                     <Stack.Screen name="Profile" component={ProfileScreen}></Stack.Screen>
+                     <Stack.Screen name="Found" component={FoundScreen}></Stack.Screen>
+                     <Stack.Screen name="Picture" component={PictureScreen}></Stack.Screen>
+                     <Stack.Screen name="Preview" component={PreviewScreen}></Stack.Screen>
                  </Stack.Navigator>
                   :
                  <Stack.Navigator>

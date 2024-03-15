@@ -77,7 +77,7 @@ function AddAnnounce ({ onSubmit, navigation }) {
                 <Text style={{fontFamily: 'Serific', fontSize: 20}}>Choose a Photo</Text>
             </TouchableOpacity>
             <KSpacer h={20}/>
-            {petInfo.photo && <Image source={{ uri: petInfo.photo }} style={{ width: 200, height: 200 }} />}
+            {petInfo.photo && <Image source={{ uri: petInfo.photo }} style={{ width: 200, height: 200, marginBottom: 20 }} />}
 
             <Pressable style={{ backgroundColor: '#F0B5B5', padding: 10, borderRadius: 10,width: 150,marginLeft: 50}} onPress={handleSubmit}>
                 <Text style={{ fontFamily: 'Serific', fontSize: 24, padding: 5, marginLeft: 25 }}>Submit</Text>
